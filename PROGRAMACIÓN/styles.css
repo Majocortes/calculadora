@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5E1DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    background-color: #FFC2E2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button.calcular {
+    background-color: #B085FF;
+    color: white;
+}
+
+button.info {
+    background-color: #B085FF;
+    color: white;
+}
+
+button.borrar {
+    background-color: #FF6F61;
+    color: white;
+}
+
+#resultado {
+    background-color: #FFBBCE;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
